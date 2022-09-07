@@ -49,7 +49,8 @@ body {
     border-radius: 12px;
     padding: 20px;
     max-width: 660px;
-    margin: 0 auto;
+    height: 500px;
+    margin: 10px auto;
 }
 
 .scoreCard{
@@ -60,7 +61,7 @@ body {
 
 .team-name{
     color: #b1a7a6;
-    font-size: 28px;
+    font-size: 48px;
     text-shadow: 0px 0px 1px black;
     margin-bottom: 6px; 
 }
@@ -68,9 +69,9 @@ body {
 .score{
     border-radius: 6px;
     background: #0b090a;
-    padding: 12px 30px;
-    margin-bottom: 12px;
-    font-size: 75px; 
+    padding: 20px 40px;
+    margin-bottom: 22px;
+    font-size: 105px; 
     font-family: "cursed";
     color: #ba181b;
     
@@ -88,6 +89,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+    font-size: 28px;
 }
 
 .buttons button:hover{
@@ -95,17 +97,18 @@ body {
 }
 
 .newBtn{
-    margin-top: 220px; 
+    margin-top: 280px; 
 }
 
 .newBtn button{
     border: none;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding:10px 20px;
     color: #461220;
     background: #5c677d;
     cursor: pointer;
     outline: none;
+    font-size: 25px;
 }
 
 .newBtn button:hover{
@@ -114,7 +117,7 @@ body {
 
 #leading{
     color: green;
-    font-size: 28px;
+    font-size: 48px;
     text-shadow: 0px 0px 1px black;
     margin-bottom: 6px; 
 }

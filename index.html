@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <header class="header">
+            <img id="logo" src="images/Basketball-PNG-HD.png" alt="Basketball">
+            <h2>Basketball Scorecard</h2>
+        </header>
+
+        <div class="container">
+            <div class="scoreCard">
+                <h3 id="home" class="team-name">HOME</h3>
+                <span  class="score" id="home-score">0</span>
+            <div class="buttons">
+                <button onclick="hincrement1()" >+1</button>
+                <button onclick="hincrement2()" >+2</button>               
+                <button onclick="hincrement3()" >+3</button>     
+                </div> 
+            </div>
+            <div class="newBtn">
+            <button onclick="newGame()">New Game</button>
+            </div>
+            <div class="scoreCard">
+                <h3 id="guest" class="team-name">GUEST</h3>
+                <span class="score" id="guest-score">0</span> 
+                <div class="buttons">
+                <button onclick="gincrement1()" >+1</button>
+                <button onclick="gincrement2()" >+2</button>               
+                <button onclick="gincrement3()" >+3</button>     
+                </div>               
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
